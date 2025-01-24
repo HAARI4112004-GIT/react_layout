@@ -1,0 +1,210 @@
+.imm{
+    width:100%;
+    /* height: 100svh; */
+    background-image: url("../assets/Black_background.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heder{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ico{
+    font-size: 32px;
+    color:white;
+    margin-left: 100px;
+}
+.serch{
+    width:200px;
+    border-bottom: 4px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.bdy{
+    margin-top: 50px;
+    margin-bottom: 87px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap:30px;
+    /* border:2px solid yellow; */
+}
+.leftt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 450px;
+    margin-left: 30px;
+    /* border:2px solid red; */
+}
+.leftmatter{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width:300px;
+}
+.leftmain{
+    color: #48C067;
+    font-size: 52px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.midmatter{
+    color:white;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 25px;
+    
+}
+.downmatter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+}
+.buttonn{
+    color:#48C067;
+    width:120px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid #48C067;
+    border-radius: 50px;
+}
+.buttonn:hover{
+    background-color: #48C067;
+    color:black;
+}
+.midpic{
+    width:400px;
+    height: 450px;
+    border:4px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.manimg{
+    width:100%;
+    height: 100%;
+}
+.rightmatter{
+    width:320px;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+.rightinner{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap:20px;
+    /* border: 2px solid red; */
+}
+.rightcard{
+    width:150px;
+}
+.rigtbutt{
+    border:2px solid #48C067;
+    width:80px;
+    height: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.point{
+    color:#48C067;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pointdown{
+    color:white;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.secmain{
+    background-color: #48C067;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.secleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+}
+.secleftmain{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+.secleftmatt{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align:justify;
+}
+.secright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+}
+.secrightdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+.secrightdivmian{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.secrightdivmatt{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#secrig{
+    border-bottom: 4px solid black;
+}
